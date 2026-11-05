@@ -1,0 +1,13 @@
+# Patient-level data: never commit
+data/*.csv
+app/sample_discharges.csv
+tables/test_predictions.npz
+*.zip
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
